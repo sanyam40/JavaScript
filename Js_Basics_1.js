@@ -1,7 +1,4 @@
-// BASIC OF JAVASCRIPT
-
 // USED FOR PRINTING
-
 console.log("HELLO WORLD !");
 
 /* DIFFERENCE BETWEEN VAR,LET & CONST
@@ -37,16 +34,12 @@ console.log(c);
 const d="Vidit";
 console.log(d);
 
-// ------------------------------------------------------------------------------------------------------
-
-/* 
-   - PRIMITIVE DATA TYPES ARE SET OF BASIC DATA TYPES IN JS.
+/*------------------------------------------------------------------------------------------------------
+    - PRIMITIVE DATA TYPES ARE SET OF BASIC DATA TYPES IN JS.
    - Object is a non primitive datatype in js.
 
    - There are the 7 primitve data types. ( NNBBSSU )
-   1)NULL 2)NUMBER 3)STRING 4)SYMBOL 5)UNDEFINED 6)BOOLEAN 7)BigInt
-
-*/
+   1)NULL 2)NUMBER 3)STRING 4)SYMBOL 5)UNDEFINED 6)BOOLEAN 7)BigInt  */
 
 let a=null
 let b=345
@@ -72,3 +65,18 @@ console.log(item["Sanyam"])
 console.log(item.Sahil)
 console.log(item)
 
+/* ------------------------------------------------------------------------------------------------------
+
+-- Conditional expressions
+-FOR INSTALLING PROMPT IN VS-- npm install prompt-sync */
+
+const prompt=require('prompt-sync')();
+
+let age=prompt("ENTER AGE : ")
+if(age>=9){
+    console.log("VALID")
+}
+else{
+    console.log("NOT VALID")
+    // alert("NOT VALID")
+}

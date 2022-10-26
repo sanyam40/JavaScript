@@ -1,17 +1,3 @@
-// Conditional expressions
-
-// FOR INSTALLING PROMPT IN VS-- npm install prompt-sync
-
-/* const prompt=require('prompt-sync')();
-
-let age=prompt("ENTER AGE : ")
-if(age>=9){
-    console.log("VALID")
-}
-else{
-    console.log("NOT VALID")
-    // alert("NOT VALID")
-} */ 
 
 // -------------------------------------------------
 
