@@ -18,7 +18,7 @@ console.log(a,b,c,d,e,f,g)
 // FOR PRINTING DATA TYPE
 console.log(typeof a)
 
-// - OBJECT IN JS
+// - Non primitve data type -- OBJECT IN JS
 
 const item={
     "Sanyam" : true,
