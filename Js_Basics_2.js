@@ -10,3 +10,11 @@ else{
     console.log("NOT VALID")
     // alert("NOT VALID")
 }
+
+// -------------------------------------------------
+
+// LOOPS IN JS
+
+
+
+
