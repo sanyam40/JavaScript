@@ -16,4 +16,15 @@ while(a!=9){
     a++;
 }
 
+// 3) FOR IN LOOP
+let obj={
+    sanyam:88,
+    arpita:89,
+    sahil:99
+}
+for(let a in obj){
+    console.log("Marks of "+a+" are "+obj[a])
+}
+
+
 
