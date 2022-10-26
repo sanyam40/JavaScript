@@ -1,6 +1,3 @@
-// USED FOR PRINTING
-console.log("HELLO WORLD !");
-
 /* DIFFERENCE BETWEEN VAR,LET & CONST
 
 1)var is globally scoped while let and const are blocked scoped.
