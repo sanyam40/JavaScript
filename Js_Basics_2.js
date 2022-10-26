@@ -26,5 +26,8 @@ const item={
     "Vidit" : 67,
     "Piyush" : undefined
 }
+item['Saksham']=78
 console.log(item["Sanyam"])
+console.log(item.Sahil)
+console.log(item)
 
