@@ -1,6 +1,6 @@
 // Conditional expressions
 
-// FOR INSTALLING PROMPT -- npm install prompt-sync
+// FOR INSTALLING PROMPT IN VS-- npm install prompt-sync
 
 /* const prompt=require('prompt-sync')();
 
@@ -26,7 +26,7 @@ for (let i= 0; i< 5;i++) {
 let a=5;
 
 while(a!=9){
-    console.log("HELLO")
+    console.log("HELLO","SANYAM")
     a++;
 }
 
