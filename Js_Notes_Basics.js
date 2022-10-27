@@ -32,7 +32,8 @@ const d="Vidit";
 console.log(d);
 
 /*------------------------------------------------------------------------------------------------------
-    - PRIMITIVE DATA TYPES ARE SET OF BASIC DATA TYPES IN JS.
+
+   - PRIMITIVE DATA TYPES ARE SET OF BASIC DATA TYPES IN JS.
    - Object is a non primitive datatype in js.
 
    - There are the 7 primitve data types. ( NNBBSSU )
