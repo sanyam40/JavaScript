@@ -41,3 +41,8 @@ console.log(ll)
 for(let i of p){
     console.log(i)
 }
+
+// FOR-EACH LOOP
+p.forEach((element) =>{
+    console.log(element)
+})
