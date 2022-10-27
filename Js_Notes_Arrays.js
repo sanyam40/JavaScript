@@ -31,3 +31,13 @@ p.splice(2,3,99,989,999) // TO REMOVE AND ADD ELEMENTS & IT RETURNS THE DELETED 
 console.log(p)
 
 console.log(p.slice(1)) // TO EXTRACT VALUES
+
+// Array from : used to create an array from any other object
+let name="sanyam"
+let ll=Array.from(name)
+console.log(ll)
+
+// for-of loop
+for(let i of p){
+    console.log(i)
+}
