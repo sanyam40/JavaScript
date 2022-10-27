@@ -128,3 +128,4 @@ console.log(sentence)
 
 let a="narang\nabc"
 console.log(a)
+console.log(boy.length)
