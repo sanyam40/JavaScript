@@ -138,3 +138,4 @@ console.log(boy.slice(1,3)) // NOT INCLUDING 3
 console.log(boy.slice(3))
 console.log(boy.replace('s','ee'))
 console.log(boy.trim()) // REMOVE WHITE SPACE
+console.log(boy.concat("is a friend of ",boy2)) // ADDING STRINGS
