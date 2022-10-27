@@ -45,4 +45,26 @@ for(let i of p){
 // FOR-EACH LOOP
 p.forEach((element) =>{
     console.log(element)
+}) 
+
+// 1) MAP IN ARRAY : IT CREATES AN NEW ARRAY BY PERFROMING SOME OPERATION ON EACH ARRAY ELEMENT
+const pp=[45,23,21]
+let ap=pp.map((value,index,array)=>{
+    console.log(value,index,array)
+    return value+1
 })
+console.log(ap)
+
+// 2) Filter method in array : It filter out the elements from array.create a new array
+const pp2=[6,7,8,9]
+let pp3=pp2.filter((a)=>{
+    return a<7
+})
+console.log(pp3)
+
+// 3) Reduce method : Reduces an array to a single value
+const pp4=[9,8,7,6,5]
+const pp5=pp4.reduce((h1,h2)=>{
+    return h1+h2
+})
+console.log(pp5)
